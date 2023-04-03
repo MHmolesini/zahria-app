@@ -1,7 +1,8 @@
 import React from "react";
-
+// estilos css
 import css from './footer.module.css'
 
+// importo los iconos
 import { BsInstagram } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
 
