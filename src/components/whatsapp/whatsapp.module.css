@@ -1,0 +1,24 @@
+/* Estilos responsive */
+
+@media (max-width: 430px) and (orientation: portrait) {
+    .whatsapp {
+        background-color: #25D366;
+        border-radius: 50%;
+        width: 13vw;
+        height: 13vw;
+        position: fixed;
+        right: 2vw;
+        bottom: 10vw;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .whatsapp i {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 8vw;
+    }
+}
