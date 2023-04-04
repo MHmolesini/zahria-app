@@ -1,4 +1,27 @@
-h1 {
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 2.32vw;
+    line-height: 7vw;
+}
+
+.aboutus h1 {
     font-size: 5.55vw;
 }
 
+.aboutus .aboutus__section {
+    padding: 5vw 0;
+}
+
+.aboutus .aboutus__section div {
+    padding: 2vw 0;
+}
+
+.aboutus .aboutus__section div h3{
+    font-size: 1.72vh;
+}
+
+.aboutus .aboutus__section div p{
+    font-size: 1.5vh;
+}

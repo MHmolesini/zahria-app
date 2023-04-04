@@ -1,28 +1,27 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import { AboutUs } from '../../pages/aboutUs'
-import { BsTypeH1 } from 'react-icons/bs'
+import { Faq } from '../../pages/faq'
+
 
 export const Menu = () => {
     return (
         <>
-            <Routes>
-                <Route 
-                    path="/*" 
-                    element='inicio'>
-                </Route>
-                <Route 
-                    path="/about-us" 
-                    element='about us'>
-                </Route>
-            </Routes>
+            
             <div>
                 <ul>
                     <li>
                         <Link to="/">Inicio</Link>
                         <Link to="/about-us">Sobre nosotros</Link>
+                        <Link to="/faq">Preguntas frecuentes</Link>
                     </li>
                 </ul>
             </div>
+
+            <Routes>
+                <Route path="/*" element='inicio'></Route>
+                <Route path="/about-us" element={<AboutUs></AboutUs>}></Route>
+                <Route path='/faq' element={<Faq></Faq>}></Route>
+            </Routes>
         </>
     )
 }
