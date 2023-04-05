@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 2.32vw;
+    padding: 5vw 2.32vw;
     line-height: 7vw;
 }
 
 .aboutus h1 {
-    font-size: 5.55vw;
+    font-size: 5vw;
 }
 
 .aboutus .aboutus__section {
-    padding: 5vw 0;
+    padding: 4vw 0;
 }
 
 .aboutus .aboutus__section div {
@@ -19,9 +19,10 @@
 }
 
 .aboutus .aboutus__section div h3{
-    font-size: 1.72vh;
+    font-size: 2vh;
+    padding-bottom: 2vw;
 }
 
 .aboutus .aboutus__section div p{
-    font-size: 1.5vh;
+    font-size: 1.75vh;
 }

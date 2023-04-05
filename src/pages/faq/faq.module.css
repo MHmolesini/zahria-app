@@ -1,0 +1,36 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw 2.32vw;
+    line-height: 5vw;
+}
+
+.faq h1 {
+    font-size: 5vw;
+}
+
+.faq .faq__section {
+    padding: 4vw 0;
+}
+
+.faq .faq__section .faq__section__question {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8vw;
+}
+
+.faq .faq__section .faq__section__question div {
+    padding: 0vw 0vw 0vw 4vw;
+}
+
+.faq .faq__section .faq__section__question div .faq__section__question__text {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 2vw 0 0 0;
+}
+
+.faq .faq__section .faq__section__question div .hidding {
+    display: none;
+}
+
