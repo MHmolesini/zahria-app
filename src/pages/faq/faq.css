@@ -1,0 +1,52 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw 2.32vw;
+    line-height: 5vw;
+}
+
+.faq h1 {
+    font-size: 5vw;
+}
+
+.faq .faq__section {
+    padding: 4vw 0;
+}
+
+.faq .faq__section .faq__section__question {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .faq__section .faq__section__question i {
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.faq .faq__section .faq__section__question div {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0vw 0vw 0vw 4vw; */
+}
+
+.faq .faq__section .faq__section__question div .faq__section__question__text {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.faq .faq__section .faq__section__question div .faq__section__question__show {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    overflow: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.faq .faq__section .faq__section__question div .faq__section__question__text, .faq__section__question__show p {
+    padding: 1vw;
+}

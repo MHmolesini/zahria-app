@@ -1,6 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom'
-import { AboutUs } from '../../pages/aboutUs'
-import { Faq } from '../../pages/faq'
+import { AboutUs } from '../../pages/aboutUs/index'
+import { Faq } from '../../pages/faq/index'
 
 
 export const Menu = () => {
